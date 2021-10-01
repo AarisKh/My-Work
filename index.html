@@ -2,8 +2,12 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <div class="container">
     <section id="apps">
        <h1>Apps</h1> 
         <div class="line"></div>
@@ -12,12 +16,30 @@
         </section>
         <br>
         <br>
-        <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/03wWijHjbr_qBbtvouUjAE1yjFM-4IEGbB0pPnbUI-k" target="_blank"><img src="Honey%20with%20poo.png"></a>
-        <a href="https://studio.code.org/projects/playlab/VL5OUFd270rsX7AfTUc-GEMGQHy7E6y-PPv09uUeFaI" target="_blank"><img src="Dragon%20fright.png"></a>
-        </section>
+       <h2>click on games to explore</h2>
+        <h5>These games are built in game lab, click on the game to play</h5>
+            <section id="myCarousel" class="carousel_slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                <center>
+                    <a href="https://studio.code.org/projects/spritelab/03wWijHjbr_qBbtvouUjAE1yjFM-4IEGbB0pPnbUI-k" target="_blank"><img src="Honey%20with%20poo.png"></a>
+                    <div class="carousel-content"><p>Winne the pooh</p></div>
+                    </center>
+                </div>
+                <div class="item">
+                <center>
+                    <a href="https://studio.code.org/projects/playlab/VL5OUFd270rsX7AfTUc-GEMGQHy7E6y-PPv09uUeFaI" target="_blank"><img src="Dragon%20fright.png"></a>
+                    <div class="carousel-content"><p>Dragon Fight</p></div>
+                    </center>
+                </div>
+                </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </section>
         <br>
         <br>
         <section id="chatbot">
@@ -30,5 +52,6 @@
     src="https://console.dialogflow.com/api-client/demo/embedded/35f71965-9493-4d5e-8e41-6d172f6fefbe">
 </iframe>
         </section>
+        </div>
     </body>
 </html>

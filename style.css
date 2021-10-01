@@ -29,3 +29,10 @@ img:hover{
     height:800px;
     background-color:burlywood;
 }
+#myCarousel{
+    background-color:saddlebrown;
+}
+#myCarousel img{
+    height:300px;
+    margin-top:40px;
+}
